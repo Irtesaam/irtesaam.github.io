@@ -1,0 +1,149 @@
+body {
+    background-image: url('images/bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 38px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 22px;
+}
+
+.left img {
+    width: 200px;
+    height: 70px;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 22px auto;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    /*To remove lines*/
+    padding: 34px 23px;
+    font-size: 16px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 1px 14px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 0px;
+    color: white;
+    background-color: #606060;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+}
+
+#search {
+    display: block;
+    width: 90%;
+    padding: 0px;
+    border-radius: 11px;
+    text-align: center;
+    margin: 4px auto;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.search {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 23px auto;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+}
+
+h1 {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+}
+
+#btn {
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    border-radius: 13px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    color: white;
+    background-color: #818181;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 17px 67px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    color: white;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 110%;
+    border-radius: 7px;
+    padding: 0.5px;
+    margin: 7px auto;
+    font-size: 11px;
+    border: 2px solid black;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+
+}
+
+.container button {
+    display: block;
+    width: 110%;
+    margin: 15px auto;
+}
